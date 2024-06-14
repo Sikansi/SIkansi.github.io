@@ -21,9 +21,8 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     position: fixed;
-    width: 69.3%;
     top: 0;
     z-index: 1000;
 }
@@ -31,6 +30,7 @@ header {
 header h1 {
     color: #dc3545;
     font-size: 2.5rem;
+    padding-right: 1rem;
 }
 
 header span {
